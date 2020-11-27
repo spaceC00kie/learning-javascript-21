@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function openAlert(mess) {
+        alert(mess);
+      }
+    </script>
+    <a href="JavaScript:void(0)" onClick="alert('Hello');">Say Hello</a><br />
+    <a href="JavaScript:void(0)" onClick="openAlert('How are you?');"
+      >Say Something</a
+    ><br />
+    <a
+      href="JavaScript:void(0)"
+      onmouseover="this.style.color='red';"
+      onmouseout="this.style.color='blue'"
+      ondblclick="this.text='You double clicked me!'"
+      onmousedown="this.text='Don\'t press too hard'"
+      onmouseup="this.text='Thank you'"
+      >Make me Red</a
+    ><br />
+  </body>
+</html>
